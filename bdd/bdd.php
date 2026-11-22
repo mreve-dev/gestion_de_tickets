@@ -15,7 +15,7 @@ function executerRequete(string $key, ?array $params = null)
         throw new Exception('La requête n\'existe pas');
     }
     $sql = $requetes[$key];
-    $pdo = new PDO('mysql:host=localhost;dbname=lc_tickets', 'root','root');
+    $pdo = new PDO('mysql:host=localhost;dbname=lc_tickets', 'admin','admin');
     $stmt = $pdo->prepare($sql);
     $result = $stmt->execute($params);
     if (!str_starts_with($sql, 'SELECT')) {
