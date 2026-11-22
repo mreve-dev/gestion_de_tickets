@@ -1,0 +1,38 @@
+Style · CSS
+/* Feuille de style générée avec l'aide de Claude (IA, Anthropic) */
+ 
+/* ===== Variables ===== */
+:root {
+ /* Fond et texte */
+  --color-cream: #F6F5F1;
+  --color-surface: #FFFFFF;
+  --color-ink: #2B2D33;
+  --color-muted: #75777F;
+  --color-line: #E4E2DC;
+
+    /* Boutons */
+  --color-danger: #B5544A;
+  --color-danger-hover: #9A453C;
+  --color-danger-soft: #F6E4E1;
+
+  --color-neutral-btn: #EDEBE6;
+  --color-neutral-btn-hover: #E2DFD8;
+
+  /* Couleur principale + accent */
+  --color-primary: #3E6E73;
+  --color-primary-hover: #335B5F;
+  --color-primary-soft: #E3EEEE;
+  --color-accent: #C9785B;
+
+  /* Statuts (texte / bordure) */
+  --color-new: #4F78B5;
+  --color-unresolved: #B8733A;
+  --color-resolved: #4F8A6A;
+  --color-closed: #85828C;
+
+  /* Statuts (fonds pastel pour badges) */
+  --color-new-soft: #E7EEF8;
+  --color-unresolved-soft: #F7ECDF;
+  --color-resolved-soft: #E5F0E9;
+  --color-closed-soft: #EFEEF1;
+}
